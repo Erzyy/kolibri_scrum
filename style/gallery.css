@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    font-weight: bold;
 }
 header {
     background-color: #4CAF50;
@@ -39,7 +40,12 @@ nav a:hover {
     max-width: 300px;
     height: auto;
 }
+.gallery-item img{
+    width: 400px;
+    height: auto;
+}
 h2 {
+    color:#4CAF50;
     font-size: 32px;
 }
 p {
