@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="style/gallery.css">
     </head>
     <body>
+        <script src="javascript/gallery.js"></script>
         <header>
             <h1>Hummingbird Gallery</h1>
         </header>
@@ -15,19 +16,31 @@
             <a href="diet.html">Diet Information</a>
             <a href="gallery.html">Gallery</a>
         </nav>
-        <div class="container">
-            <section id="gallery">
-                <section id="gallery"><h2>Hummingbird Gallery</h2>
-                    <div class="gallery">
-                        <div class="gallery-item">
-                            <img src="images/humming_bird_img_1.jpg" alt="Hummingbird 1"><p>Hummingbird in action.</p>
-                            <img src="images/humming_bird_img_2.jpg" alt="Hummingbird 2"><p>Hummingbird flying.</p>
-                            <img src="images/humming_bird_img_3.jpg" alt="Hummingbird 3"><p>Humming bird feasting.</p>
-                            <img src="images/humming_bird_img_4.jpg" alt="Hummingbird 4"><p>Humming bird on a branch.</p>
-                        </div>
-                    </div>
-                </section>
-            </section>
+        <div class="center-gallery">
+            <div class="responsive">
+                <img onclick="toggleEnlargeImg(this)" src="images/humming_bird_eating_img.jpg" alt="Hummingbird 1" width="600" height="400">
+                <div class="desc">Hummingbird eating</div>
+            </div>
+            
+            <div class="responsive">
+                <img onclick="toggleEnlargeImg(this)" src="images/humming_bird_img_1.jpg" alt="Hummingbird 2" width="600" height="400">
+                <div class="desc">Hummingbird</div>
+            </div>
+            
+            <div class="responsive">
+                <img onclick="toggleEnlargeImg(this)" src="images/humming_bird_img_2.jpg" alt="Hummingbird 3" width="600" height="400">
+                <div class="desc">Pretty Hummingbird</div>
+            </div>
+            
+            <div class="responsive">
+                <img onclick="toggleEnlargeImg(this)" src="images/humming_bird_img_3.jpg" alt="Hummingbird 4" width="600" height="400">
+                <div class="desc">Even prettier Hummingbird</div>
+            </div>
+
+            <div class="responsive">
+                <img onclick="toggleEnlargeImg(this)" src="images/humming_bird_img_4.jpg" alt="Hummingbird 5" width="600" height="400">
+                <div class="desc">The prettiest Hummingbird</div>
+            </div>
         </div>
     </body>
 </html>
